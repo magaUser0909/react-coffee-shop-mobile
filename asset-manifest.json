@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-coffee-shop-mobile/static/css/main.38873bb0.css",
+    "main.js": "/react-coffee-shop-mobile/static/js/main.caad4799.js",
+    "static/js/787.2d30b1fd.chunk.js": "/react-coffee-shop-mobile/static/js/787.2d30b1fd.chunk.js",
+    "static/media/image.png": "/react-coffee-shop-mobile/static/media/image.9d2839e818b4eb4c87ce.png",
+    "static/media/promo.png": "/react-coffee-shop-mobile/static/media/promo.52584b0bc5c1337e8935.png",
+    "static/media/image-2.png": "/react-coffee-shop-mobile/static/media/image-2.11e1d046f3ba32f87d16.png",
+    "static/media/image-3.png": "/react-coffee-shop-mobile/static/media/image-3.ca927d6f815e50d33b39.png",
+    "static/media/image-1.png": "/react-coffee-shop-mobile/static/media/image-1.2da53597ca6103bdcc33.png",
+    "static/media/image-4.png": "/react-coffee-shop-mobile/static/media/image-4.df7ea5d317495f6b1437.png",
+    "index.html": "/react-coffee-shop-mobile/index.html",
+    "main.38873bb0.css.map": "/react-coffee-shop-mobile/static/css/main.38873bb0.css.map",
+    "main.caad4799.js.map": "/react-coffee-shop-mobile/static/js/main.caad4799.js.map",
+    "787.2d30b1fd.chunk.js.map": "/react-coffee-shop-mobile/static/js/787.2d30b1fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38873bb0.css",
+    "static/js/main.caad4799.js"
+  ]
+}

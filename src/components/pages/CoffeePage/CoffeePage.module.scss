@@ -1,0 +1,214 @@
+$dark2f2d2c: #2F2D2C;
+$greyEa: #EAEAEA;
+$grey9b: #9B9B9B;
+$starColor: #FBBE21;
+$grey80: #808080;
+$orangeC67c4e: #C67C4E;
+$orangeHover: #eb7b36;
+$whitef9: #F9F9F9;
+$white: #FFF;
+$whiteFff5ee: #FFF5EE;
+
+.coffeePage {
+  margin-top: 16px;
+
+  .mainContent {
+    padding: 0 30px;
+
+    .head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 25px;
+
+      .backIcon,
+      .likeIcon {
+        font-size: 24px;
+      }
+
+      .title {
+        color: $dark2f2d2c;
+        font-size: 18px;
+        font-weight: 600;
+      }
+    }
+
+    .image {
+      width: 100%;
+      height: calc(226px + 5vw);
+      border-radius: 16px;
+      margin-bottom: 20px;
+    }
+
+    .content {
+      .subTitle {
+        color: $dark2f2d2c;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 12px;
+      }
+
+      .mainHead {
+        border-bottom: 1px solid $greyEa;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+
+        .title {
+          color: $dark2f2d2c;
+          font-size: 20px;
+          font-weight: 600;
+          margin-bottom: 8px;
+        }
+
+        .ingredient {
+          color: $grey9b;
+          font-size: 12px;
+          font-weight: 400;
+        }
+
+        .mainSubBlock {
+          display: flex;
+          align-items: end;
+          justify-content: space-between;
+
+          .rate {
+            display: flex;
+            align-items: center;
+            column-gap: 4px;
+            color: $dark2f2d2c;
+            font-size: 16px;
+            font-weight: 600;
+
+            .star {
+              font-size: 20px;
+              color: $starColor;
+              margin-bottom: -5px;
+            }
+
+            .quantity {
+              color: $grey80;
+              font-size: 12px;
+              font-weight: 400;
+            }
+          }
+
+          .ingredients {
+            display: flex;
+            column-gap: 12px;
+
+            div {
+              display: flex;
+              padding: 10px;
+              border-radius: 14px;
+              background: $whitef9;
+              color: $orangeC67c4e;
+              font-size: 24px;
+            }
+          }
+        }
+
+      }
+
+      .desc {
+        color: $grey9b;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 164%;
+        margin-bottom: 20px;
+
+        span {
+          color: $orangeC67c4e;
+          font-weight: 600;
+        }
+      }
+
+      .size {
+        margin-bottom: 17px;
+
+        .sizes {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          column-gap: 10px;
+          text-align: center;
+
+          div {
+            color: $dark2f2d2c;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 164%;
+            padding: 10px;
+            border-radius: 12px;
+            border: 1px solid #DEDEDE;
+            background-color: $white;
+            transition: .3s;
+            cursor: pointer;
+
+            &:hover {
+              color: $orangeC67c4e;
+              border: 1px solid $orangeC67c4e;
+              background-color: $whiteFff5ee;
+            }
+
+            &.active {
+              color: $orangeC67c4e;
+              border: 1px solid $orangeC67c4e;
+              background-color: $whiteFff5ee;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .blockBuy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 42px;
+    padding: 16px 30px 10px 30px;
+    border-radius: 24px 24px 0 0;
+    background-color: $white;
+    box-shadow: 0px -10px 24px 0px rgba(228, 228, 228, 0.25);
+
+    .priceBox {
+      display: flex;
+      row-gap: 8px;
+      flex-direction: column;
+
+      .title {
+        color: $grey9b;
+        font-size: 14px;
+        font-weight: 400;
+      }
+
+      .price {
+        color: $orangeC67c4e;
+        font-size: 18px;
+        font-weight: 600;
+        white-space: nowrap;
+      }
+    }
+
+    .btnBuy {
+      width: 100%;
+
+      button {
+        width: 100%;
+        border: 0;
+        outline: none;
+        border-radius: 16px;
+        background: $orangeC67c4e;
+        padding: 21px 0;
+        color: $white;
+        font-size: 16px;
+        font-weight: 600;
+        transition: .3s;
+        cursor: pointer;
+
+        &:hover {
+          background-color: $orangeHover;
+        }
+      }
+    }
+  }
+}

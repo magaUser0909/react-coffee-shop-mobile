@@ -1,0 +1,28 @@
+$width_xxl: 1200px;
+$width_xl: 1024px;
+$width_md: 767px;
+
+.coffees {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 0 30px;
+    gap: 24px;
+}
+
+@media (max-width:$width_xxl) {
+    .coffees {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: $width_xl) {
+    .coffees {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: $width_md) {
+    .coffees {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

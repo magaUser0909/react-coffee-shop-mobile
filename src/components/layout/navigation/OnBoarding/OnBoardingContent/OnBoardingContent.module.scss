@@ -1,0 +1,65 @@
+$dark: #000;
+$white: #fff;
+$grey: #A9A9A9;
+$orange: #C67C4E;
+$orangeHover: #eb7b36;
+
+.obBoardingContent {
+    width: 100%;
+    background-color: $dark;
+
+    // @media (max-width: 505px) {
+    height: 100vh;
+
+    .image {
+        width: 100%;
+        height: 100%;
+        background: url("../../../../../assets/onboarding/image.png") 100% / 100% no-repeat;
+    }
+
+    .content {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 10px;
+        text-align: center;
+        margin: 0 30px;
+
+        .title {
+            color: $white;
+            font-size: 34px;
+            font-weight: 600;
+            letter-spacing: 0.34px;
+            margin-bottom: 20px;
+        }
+
+        .desc {
+            color: $grey;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 154%;
+            letter-spacing: 0.14px;
+            margin-bottom: 24px;
+        }
+
+        .btnGetStart {
+            width: 100%;
+            color: $white;
+            font-size: 16px;
+            font-weight: 600;
+            border: 0;
+            outline: none;
+            border-radius: 16px;
+            background-color: $orange;
+            padding: 21px 0;
+            transition: .3s;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $orangeHover;
+            }
+        }
+    }
+
+    // }
+}

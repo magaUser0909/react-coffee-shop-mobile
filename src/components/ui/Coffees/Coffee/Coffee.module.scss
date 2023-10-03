@@ -1,0 +1,89 @@
+$white: #fff;
+$starColor: #FBBE21;
+$grey9b: #9B9B9B;
+$dark2f2d2c: #2F2D2C;
+$greenDark: #2F4B4E;
+$orange: #C67C4E;
+$orangeHover: #eb7b36;
+
+.coffee {
+  position: relative;
+  background-color: $white;
+  border-radius: 16px;
+  transition: .3s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  .head {
+    text-decoration: none;
+    display: flex;
+
+    img {
+      width: 100%;
+    }
+
+    .rate {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      color: $white;
+      font-size: 10px;
+      font-weight: 600;
+
+      span {
+        color: $starColor;
+      }
+    }
+  }
+
+  .desc {
+    padding: 12px 12px 17px 12px;
+
+    .title {
+      color: $dark2f2d2c;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+
+    .ingredient {
+      color: $grey9b;
+      font-size: 12px;
+      font-weight: 400;
+      margin-bottom: 12px;
+
+      span {
+        text-transform: capitalize;
+      }
+    }
+
+
+    .basement {
+      display: flex;
+      justify-content: space-between;
+
+      .price {
+        color: $greenDark;
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      .btnAdd {
+        border: 0;
+        outline: none;
+        border-radius: 10px;
+        background: $orange;
+        color: $white;
+        padding: 8px;
+        transition: .3s;
+        cursor: pointer;
+
+        &:hover {
+          background-color: $orangeHover;
+        }
+      }
+    }
+  }
+}

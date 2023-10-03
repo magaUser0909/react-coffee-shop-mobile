@@ -1,0 +1,48 @@
+$white: #fff;
+$activePage: #C67C4E;
+$grey8d: #8D8D8D;
+
+.navBar {
+    position: static;
+    width: 100%;
+    bottom: 0;
+    border-radius: 24px 24px 0 0;
+    background: $white;
+    box-shadow: 0px -10px 24px 0px rgba(228, 228, 228, 0.25);
+    margin-top: 20px;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        padding: 25px 50px;
+
+        a {
+            position: relative;
+            font-size: 24px;
+            color: $grey8d;
+            transition: .3s;
+
+            &:hover {
+                color: $activePage;
+            }
+
+            &.active {
+                color: $activePage;
+
+                &:after {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                    width: 10px;
+                    height: 5px;
+                    color: #000;
+                    border-radius: 18px;
+                    background: linear-gradient(260deg, #C67C4E 26.47%, #EDAB81 77.94%);
+                }
+            }
+        }
+    }
+}

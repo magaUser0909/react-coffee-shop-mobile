@@ -1,0 +1,47 @@
+$white: #FFF;
+$green2f4b4e: #2F4B4E;
+$orangeC67c4e: #C67C4E;
+
+.homeFilter {
+    padding: 0 30px;
+    margin-bottom: 24px;
+
+    ul {
+        display: flex;
+        column-gap: 10px;
+        list-style-type: none;
+        overflow-x: auto;
+
+
+        &::-webkit-scrollbar {
+            height: 5px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: grey;
+            border-radius: 20px;
+        }
+
+        li {
+            border-radius: 12px;
+            background: $white;
+            color: $green2f4b4e;
+            font-size: 14px;
+            font-weight: 400;
+            padding: 10px 16px;
+            transition: .3s;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $orangeC67c4e;
+                color: $white;
+            }
+
+            &.active {
+                font-weight: 600;
+                background-color: $orangeC67c4e;
+                color: $white;
+            }
+        }
+    }
+}

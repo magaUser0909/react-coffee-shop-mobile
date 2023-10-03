@@ -1,0 +1,15 @@
+ссылка на шрифт - @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+все размеры шрифтов - 12, 14, 16, 18, 32 - px;
+
+основной цвет контента - #2F2D2C
+
+все цвета color контента: #fff, #A9A9A9, #B7B7B7, #DDD, #989898, #2F4B4E, #2F2D2C, #9B9B9B, #FBBE21, #808080, #C67C4E, #303336, #AAADB0,
+
+все цвета background-color контента: #C67C4E, #1C1C1C, #FFF5EE, #fff, #F2F2F2, #36C07E
+
+цвет звезды - #FBBE21,
+
+цвета border: #C67C4E, #DEDEDE, #EAEAEA
+
+цвет ингредиентов кофе - #C67C4E,

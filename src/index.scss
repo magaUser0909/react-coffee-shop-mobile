@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+$mainColor :#2F2D2C;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: $mainColor; //  нужно обратно раскомментировать
+  font-family: 'Sora', sans-serif;
+}

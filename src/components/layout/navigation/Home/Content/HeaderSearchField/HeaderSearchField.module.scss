@@ -1,0 +1,78 @@
+$width_xxl: 1200px;
+$width_xl: 1024px;
+$width_md: 767px;
+$width_sm: 576px;
+
+$white: #fff;
+$orange: #C67C4E;
+$orangeHover: #eb7b36;
+$dark31: #313131;
+$grey98: #989898;
+
+.headerSearchField {
+    position: relative;
+    display: flex;
+    align-items: center;
+    // margin-bottom: 40px;
+
+    .searchIcon {
+        position: absolute;
+        top: 15px;
+        left: 16px;
+        width: 20px;
+        height: 20px;
+        color: $white;
+    }
+
+    .btnSortIcon {
+        position: absolute;
+        right: 4px;
+        background-color: $orange;
+        border: 0;
+        outline: none;
+        border-radius: 9px;
+        padding: 9px;
+        transition: .3s;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $orangeHover;
+        }
+
+        div {
+            width: 15px;
+            height: 15px;
+            background: url("../../../../../../assets/home/searchField/sort.png") 100% / 100% no-repeat;
+        }
+    }
+
+    input {
+        width: 100%;
+        border: 0;
+        outline: none;
+        border-radius: 16px;
+        background: $dark31;
+        padding: 16px 4px 16px 42px;
+        color: $grey98;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+// @media (max-width:$width_xxl) {
+//     .headerSearchField {
+//         margin-bottom: -10px;
+//     }
+// }
+
+// @media (max-width: $width_xl) {
+//     .headerSearchField {
+//         margin-bottom: 0;
+//     }
+// }
+
+// @media (max-width: $width_md) {
+//     .headerSearchField {
+//         margin-bottom: 0;
+//     }
+// }
